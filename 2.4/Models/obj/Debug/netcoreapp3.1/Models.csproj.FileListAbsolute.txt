@@ -1,0 +1,4 @@
+C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
