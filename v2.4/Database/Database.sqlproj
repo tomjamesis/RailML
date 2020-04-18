@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{b29fee76-2e13-4e96-83cb-0876b415ca31}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Database</RootNamespace>
+    <AssemblyName>Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Contributor.sql" />
+    <Build Include="dbo\Tables\Coverage.sql" />
+    <Build Include="dbo\Tables\Creator.sql" />
+    <Build Include="dbo\Tables\Date.sql" />
+    <Build Include="dbo\Tables\Description.sql" />
+    <Build Include="dbo\Tables\EAnnotation.sql" />
+    <Build Include="dbo\Tables\EAnnotations.sql" />
+    <Build Include="dbo\Tables\EArrivalDepartureTimes.sql" />
+    <Build Include="dbo\Tables\EAttributes.sql" />
+    <Build Include="dbo\Tables\EAuxiliarySupply.sql" />
+    <Build Include="dbo\Tables\EAxleWeightChanges.sql" />
+    <Build Include="dbo\Tables\EBalises.sql" />
+    <Build Include="dbo\Tables\EBlock.sql" />
+    <Build Include="dbo\Tables\EBlockParts.sql" />
+    <Build Include="dbo\Tables\EBlockPartSequence.sql" />
+    <Build Include="dbo\Tables\EBlocks.sql" />
+    <Build Include="dbo\Tables\EBorder.sql" />
+    <Build Include="dbo\Tables\EBrakeUsage.sql" />
+    <Build Include="dbo\Tables\EBridge.sql" />
+    <Build Include="dbo\Tables\EBridges.sql" />
+    <Build Include="dbo\Tables\ECategories.sql" />
+    <Build Include="dbo\Tables\ECategory.sql" />
+    <Build Include="dbo\Tables\ECirculations.sql" />
+    <Build Include="dbo\Tables\EClassification.sql" />
+    <Build Include="dbo\Tables\EClearanceGaugeChanges.sql" />
+    <Build Include="dbo\Tables\EConnections.sql" />
+    <Build Include="dbo\Tables\EConnectionsTT.sql" />
+    <Build Include="dbo\Tables\EConnectionTT.sql" />
+    <Build Include="dbo\Tables\EControllers.sql" />
+    <Build Include="dbo\Tables\ECouplers.sql" />
+    <Build Include="dbo\Tables\ECrossedElements.sql" />
+    <Build Include="dbo\Tables\ECrossing.sql" />
+    <Build Include="dbo\Tables\ECrossSections.sql" />
+    <Build Include="dbo\Tables\ECurvingLimitation.sql" />
+    <Build Include="dbo\Tables\EDerailers.sql" />
+    <Build Include="dbo\Tables\EDoors.sql" />
+    <Build Include="dbo\Tables\EElectricalCoupler.sql" />
+    <Build Include="dbo\Tables\EElectrificationChanges.sql" />
+    <Build Include="dbo\Tables\EEngine.sql" />
+    <Build Include="dbo\Tables\EEquipment.sql" />
+    <Build Include="dbo\Tables\EEquipmentUsage.sql" />
+    <Build Include="dbo\Tables\EETCS.sql" />
+    <Build Include="dbo\Tables\EExternalReference.sql" />
+    <Build Include="dbo\Tables\EExternalReferenceInformation.sql" />
+    <Build Include="dbo\Tables\EExternalReferenceLineNumber.sql" />
+    <Build Include="dbo\Tables\EExternalReferenceTrainNumber.sql" />
+    <Build Include="dbo\Tables\EFormation.sql" />
+    <Build Include="dbo\Tables\EFormations.sql" />
+    <Build Include="dbo\Tables\EFormationTT.sql" />
+    <Build Include="dbo\Tables\EFourQuadrantChopper.sql" />
+    <Build Include="dbo\Tables\EGaugeChanges.sql" />
+    <Build Include="dbo\Tables\EGear.sql" />
+    <Build Include="dbo\Tables\EGeneralInfraAttribute.sql" />
+    <Build Include="dbo\Tables\EGeneralInfraAttributes.sql" />
+    <Build Include="dbo\Tables\EGeoMappings.sql" />
+    <Build Include="dbo\Tables\EGoods.sql" />
+    <Build Include="dbo\Tables\EGradientChanges.sql" />
+    <Build Include="dbo\Tables\EHolidays.sql" />
+    <Build Include="dbo\Tables\EInfraAttr.sql" />
+    <Build Include="dbo\Tables\EInfraAttrGroup.sql" />
+    <Build Include="dbo\Tables\EInfraAttrGroupRefs.sql" />
+    <Build Include="dbo\Tables\EInfrastructureVisualization.sql" />
+    <Build Include="dbo\Tables\ElementContainer.sql" />
+    <Build Include="dbo\Tables\ELevelCrossing.sql" />
+    <Build Include="dbo\Tables\ELevelCrossings.sql" />
+    <Build Include="dbo\Tables\ELine.sql" />
+    <Build Include="dbo\Tables\ELineVis.sql" />
+    <Build Include="dbo\Tables\ELoadLimit.sql" />
+    <Build Include="dbo\Tables\ELoadLimitMatrix.sql" />
+    <Build Include="dbo\Tables\ELocallyControlledArea.sql" />
+    <Build Include="dbo\Tables\ELocks.sql" />
+    <Build Include="dbo\Tables\EMaintenanceIntervals.sql" />
+    <Build Include="dbo\Tables\EMechanicalCoupler.sql" />
+    <Build Include="dbo\Tables\EMileageChanges.sql" />
+    <Build Include="dbo\Tables\EMonitoring.sql" />
+    <Build Include="dbo\Tables\EOcp.sql" />
+    <Build Include="dbo\Tables\EOcpPropEquipment.sql" />
+    <Build Include="dbo\Tables\EOcpPropOperational.sql" />
+    <Build Include="dbo\Tables\EOcpPropOther.sql" />
+    <Build Include="dbo\Tables\EOcpsTT.sql" />
+    <Build Include="dbo\Tables\EOcpTT.sql" />
+    <Build Include="dbo\Tables\EOcpVis.sql" />
+    <Build Include="dbo\Tables\EOcsElements.sql" />
+    <Build Include="dbo\Tables\EOperatingDay.sql" />
+    <Build Include="dbo\Tables\EOperatingPeriod.sql" />
+    <Build Include="dbo\Tables\EOperatingPeriodRef.sql" />
+    <Build Include="dbo\Tables\EOperatingPeriods.sql" />
+    <Build Include="dbo\Tables\EOperationControlPoints.sql" />
+    <Build Include="dbo\Tables\EOperationModeChanges.sql" />
+    <Build Include="dbo\Tables\EOperator.sql" />
+    <Build Include="dbo\Tables\EOrganizationalUnitBinding.sql" />
+    <Build Include="dbo\Tables\EOwnerChanges.sql" />
+    <Build Include="dbo\Tables\EPantograph.sql" />
+    <Build Include="dbo\Tables\EPassenger.sql" />
+    <Build Include="dbo\Tables\EPassengerFacility.sql" />
+    <Build Include="dbo\Tables\EPassengerFacilityTT.sql" />
+    <Build Include="dbo\Tables\EPlatformEdges.sql" />
+    <Build Include="dbo\Tables\EPneumaticCoupler.sql" />
+    <Build Include="dbo\Tables\EPowerTransmissionChanges.sql" />
+    <Build Include="dbo\Tables\EPropulsion.sql" />
+    <Build Include="dbo\Tables\EPulsePattern.sql" />
+    <Build Include="dbo\Tables\EPulsePatternValueTable.sql" />
+    <Build Include="dbo\Tables\ERadiusChanges.sql" />
+    <Build Include="dbo\Tables\EReplacedTrains.sql" />
+    <Build Include="dbo\Tables\EReplacementOf.sql" />
+    <Build Include="dbo\Tables\EReservationInfo.sql" />
+    <Build Include="dbo\Tables\ERostering.sql" />
+    <Build Include="dbo\Tables\ERosterings.sql" />
+    <Build Include="dbo\Tables\ESectionTT.sql" />
+    <Build Include="dbo\Tables\EServiceSections.sql" />
+    <Build Include="dbo\Tables\ESignalGroup.sql" />
+    <Build Include="dbo\Tables\ESignalGroups.sql" />
+    <Build Include="dbo\Tables\ESignals.sql" />
+    <Build Include="dbo\Tables\ESpeedChanges.sql" />
+    <Build Include="dbo\Tables\ESpeedProfiles.sql" />
+    <Build Include="dbo\Tables\ESpeeds.sql" />
+    <Build Include="dbo\Tables\EStatistic.sql" />
+    <Build Include="dbo\Tables\EStatistics.sql" />
+    <Build Include="dbo\Tables\EStopActivities.sql" />
+    <Build Include="dbo\Tables\EStopDescription.sql" />
+    <Build Include="dbo\Tables\EStopPosts.sql" />
+    <Build Include="dbo\Tables\EStorage.sql" />
+    <Build Include="dbo\Tables\ESwitch.sql" />
+    <Build Include="dbo\Tables\ETapTsiTransportOperationalIdentifier.sql" />
+    <Build Include="dbo\Tables\ETimetablePeriod.sql" />
+    <Build Include="dbo\Tables\ETimetablePeriods.sql" />
+    <Build Include="dbo\Tables\ETrack.sql" />
+    <Build Include="dbo\Tables\ETrackBegin.sql" />
+    <Build Include="dbo\Tables\ETrackConditions.sql" />
+    <Build Include="dbo\Tables\ETrackElements.sql" />
+    <Build Include="dbo\Tables\ETrackElementVis.sql" />
+    <Build Include="dbo\Tables\ETrackEnd.sql" />
+    <Build Include="dbo\Tables\ETrackGroups.sql" />
+    <Build Include="dbo\Tables\ETrackNode.sql" />
+    <Build Include="dbo\Tables\ETracks.sql" />
+    <Build Include="dbo\Tables\ETrackTopology.sql" />
+    <Build Include="dbo\Tables\ETrackVis.sql" />
+    <Build Include="dbo\Tables\ETractionInverter.sql" />
+    <Build Include="dbo\Tables\ETractionMotor.sql" />
+    <Build Include="dbo\Tables\ETrain.sql" />
+    <Build Include="dbo\Tables\ETrainDetectionElements.sql" />
+    <Build Include="dbo\Tables\ETrainGroup.sql" />
+    <Build Include="dbo\Tables\ETrainGroups.sql" />
+    <Build Include="dbo\Tables\ETrainOrder.sql" />
+    <Build Include="dbo\Tables\ETrainPart.sql" />
+    <Build Include="dbo\Tables\ETrainParts.sql" />
+    <Build Include="dbo\Tables\ETrainPartSequence.sql" />
+    <Build Include="dbo\Tables\ETrainProtectionChanges.sql" />
+    <Build Include="dbo\Tables\ETrainProtectionElements.sql" />
+    <Build Include="dbo\Tables\ETrainRadio.sql" />
+    <Build Include="dbo\Tables\ETrainRadioChanges.sql" />
+    <Build Include="dbo\Tables\ETrains.sql" />
+    <Build Include="dbo\Tables\ETransformer.sql" />
+    <Build Include="dbo\Tables\ETunnel.sql" />
+    <Build Include="dbo\Tables\ETunnels.sql" />
+    <Build Include="dbo\Tables\EVehicle.sql" />
+    <Build Include="dbo\Tables\EVehicleBrake.sql" />
+    <Build Include="dbo\Tables\EVehicleBrakes.sql" />
+    <Build Include="dbo\Tables\EVehicles.sql" />
+    <Build Include="dbo\Tables\EWagon.sql" />
+    <Build Include="dbo\Tables\Format.sql" />
+    <Build Include="dbo\Tables\Identifier.sql" />
+    <Build Include="dbo\Tables\Infrastructure.sql" />
+    <Build Include="dbo\Tables\InfrastructureVisualizations.sql" />
+    <Build Include="dbo\Tables\Language.sql" />
+    <Build Include="dbo\Tables\Publisher.sql" />
+    <Build Include="dbo\Tables\Railml.sql" />
+    <Build Include="dbo\Tables\Relation.sql" />
+    <Build Include="dbo\Tables\Rights.sql" />
+    <Build Include="dbo\Tables\Rollingstock.sql" />
+    <Build Include="dbo\Tables\SimpleLiteral.sql" />
+    <Build Include="dbo\Tables\Source.sql" />
+    <Build Include="dbo\Tables\Subject.sql" />
+    <Build Include="dbo\Tables\TAdditionalName.sql" />
+    <Build Include="dbo\Tables\TAdditionalOcpName.sql" />
+    <Build Include="dbo\Tables\TAirBrakeApplicationPosition.sql" />
+    <Build Include="dbo\Tables\TAnnotation.sql" />
+    <Build Include="dbo\Tables\TAnnotationRef.sql" />
+    <Build Include="dbo\Tables\TAnnotationText.sql" />
+    <Build Include="dbo\Tables\TArrivalDepartureTimes.sql" />
+    <Build Include="dbo\Tables\TAttribute.sql" />
+    <Build Include="dbo\Tables\TAuxiliarySupply.sql" />
+    <Build Include="dbo\Tables\TAuxiliarySupplySystem.sql" />
+    <Build Include="dbo\Tables\TAxleWeight.sql" />
+    <Build Include="dbo\Tables\TAxleWeightChange.sql" />
+    <Build Include="dbo\Tables\TBalise.sql" />
+    <Build Include="dbo\Tables\TBaliseGroup.sql" />
+    <Build Include="dbo\Tables\TBaliseLinkReaction.sql" />
+    <Build Include="dbo\Tables\TBaliseRefInGroup.sql" />
+    <Build Include="dbo\Tables\TBasePlacedElement.sql" />
+    <Build Include="dbo\Tables\TBaseServiceSection.sql" />
+    <Build Include="dbo\Tables\TBasicBrakeOperation.sql" />
+    <Build Include="dbo\Tables\TBasicBrakeType.sql" />
+    <Build Include="dbo\Tables\TBasicBrakeTypeAuxiliaryBrakes.sql" />
+    <Build Include="dbo\Tables\TBlock.sql" />
+    <Build Include="dbo\Tables\TBlockPart.sql" />
+    <Build Include="dbo\Tables\TBlockPartRef.sql" />
+    <Build Include="dbo\Tables\TBlockPartSequence.sql" />
+    <Build Include="dbo\Tables\TBooking.sql" />
+    <Build Include="dbo\Tables\TBorder.sql" />
+    <Build Include="dbo\Tables\TBrakeUse.sql" />
+    <Build Include="dbo\Tables\TBraking.sql" />
+    <Build Include="dbo\Tables\TBridge.sql" />
+    <Build Include="dbo\Tables\TBufferStop.sql" />
+    <Build Include="dbo\Tables\TCabPositionType.sql" />
+    <Build Include="dbo\Tables\TCategory.sql" />
+    <Build Include="dbo\Tables\TCirculation.sql" />
+    <Build Include="dbo\Tables\TClearanceGaugeChange.sql" />
+    <Build Include="dbo\Tables\TClearanceGaugeType.sql" />
+    <Build Include="dbo\Tables\TCommonSwitchAndCrossingData.sql" />
+    <Build Include="dbo\Tables\TConcessionaire.sql" />
+    <Build Include="dbo\Tables\TConnectionData.sql" />
+    <Build Include="dbo\Tables\TConnectionTT.sql" />
+    <Build Include="dbo\Tables\TContractor.sql" />
+    <Build Include="dbo\Tables\TController.sql" />
+    <Build Include="dbo\Tables\TControllerTechnologyType.sql" />
+    <Build Include="dbo\Tables\TCrossedElement.sql" />
+    <Build Include="dbo\Tables\TCrossing.sql" />
+    <Build Include="dbo\Tables\TCrossSection.sql" />
+    <Build Include="dbo\Tables\TCurrentCurve.sql" />
+    <Build Include="dbo\Tables\TCurrentLimitation.sql" />
+    <Build Include="dbo\Tables\TCurve.sql" />
+    <Build Include="dbo\Tables\TCurveValueTable.sql" />
+    <Build Include="dbo\Tables\TCurvingLimitationType.sql" />
+    <Build Include="dbo\Tables\TCustomer.sql" />
+    <Build Include="dbo\Tables\TDecelerationCurve.sql" />
+    <Build Include="dbo\Tables\TDelimitedDirection.sql" />
+    <Build Include="dbo\Tables\TDelimitedOrientedElement.sql" />
+    <Build Include="dbo\Tables\TDelimitedOrientedElementWithLength.sql" />
+    <Build Include="dbo\Tables\TDerailer.sql" />
+    <Build Include="dbo\Tables\TDerailKind.sql" />
+    <Build Include="dbo\Tables\TDesignator.sql" />
+    <Build Include="dbo\Tables\TDieselEngine.sql" />
+    <Build Include="dbo\Tables\TDoors.sql" />
+    <Build Include="dbo\Tables\TDriversCabType.sql" />
+    <Build Include="dbo\Tables\TEddyCurrentBrake.sql" />
+    <Build Include="dbo\Tables\TEfficiencyCurve.sql" />
+    <Build Include="dbo\Tables\TEffortCurve.sql" />
+    <Build Include="dbo\Tables\TElectricalWagonCouplerType.sql" />
+    <Build Include="dbo\Tables\TElectrification.sql" />
+    <Build Include="dbo\Tables\TElectrificationChange.sql" />
+    <Build Include="dbo\Tables\TElectrificationSystem.sql" />
+    <Build Include="dbo\Tables\TElementRefInGroup.sql" />
+    <Build Include="dbo\Tables\TElementWithIDAndName.sql" />
+    <Build Include="dbo\Tables\TElementWithIDAndNameWithoutAny.sql" />
+    <Build Include="dbo\Tables\TElementWithReference.sql" />
+    <Build Include="dbo\Tables\TEndPositionType.sql" />
+    <Build Include="dbo\Tables\TEngine.sql" />
+    <Build Include="dbo\Tables\TEpsgCode.sql" />
+    <Build Include="dbo\Tables\TEquipment.sql" />
+    <Build Include="dbo\Tables\TETCS.sql" />
+    <Build Include="dbo\Tables\TEtcsTT.sql" />
+    <Build Include="dbo\Tables\TExtendedDirection.sql" />
+    <Build Include="dbo\Tables\TFormation.sql" />
+    <Build Include="dbo\Tables\TFormationTT.sql" />
+    <Build Include="dbo\Tables\TFourQuadrantChopper.sql" />
+    <Build Include="dbo\Tables\TGangway.sql" />
+    <Build Include="dbo\Tables\TGauge.sql" />
+    <Build Include="dbo\Tables\TGaugeChange.sql" />
+    <Build Include="dbo\Tables\TGear.sql" />
+    <Build Include="dbo\Tables\TGeoCoord.sql" />
+    <Build Include="dbo\Tables\TGlobalElementWithMetadata.sql" />
+    <Build Include="dbo\Tables\TGoods.sql" />
+    <Build Include="dbo\Tables\TGradientChange.sql" />
+    <Build Include="dbo\Tables\THoliday.sql" />
+    <Build Include="dbo\Tables\Timetable.sql" />
+    <Build Include="dbo\Tables\TInfrastructure.sql" />
+    <Build Include="dbo\Tables\TInfrastructureManager.sql" />
+    <Build Include="dbo\Tables\TInfrastructureVisualization.sql" />
+    <Build Include="dbo\Tables\TInsulatedRailSide.sql" />
+    <Build Include="dbo\Tables\TInterlockingTypes.sql" />
+    <Build Include="dbo\Tables\Title.sql" />
+    <Build Include="dbo\Tables\TLaxDirection.sql" />
+    <Build Include="dbo\Tables\TLevelCrossing.sql" />
+    <Build Include="dbo\Tables\TLine.sql" />
+    <Build Include="dbo\Tables\TLineClassification.sql" />
+    <Build Include="dbo\Tables\TLink.sql" />
+    <Build Include="dbo\Tables\TLoadLimitMatrixType.sql" />
+    <Build Include="dbo\Tables\TLoadLimitType.sql" />
+    <Build Include="dbo\Tables\TLoadSwitch.sql" />
+    <Build Include="dbo\Tables\TLocallyControlledArea.sql" />
+    <Build Include="dbo\Tables\TLocation.sql" />
+    <Build Include="dbo\Tables\TLock.sql" />
+    <Build Include="dbo\Tables\TLosses.sql" />
+    <Build Include="dbo\Tables\TMacroscopicNode.sql" />
+    <Build Include="dbo\Tables\TMaintenanceInterval.sql" />
+    <Build Include="dbo\Tables\TManufacturer.sql" />
+    <Build Include="dbo\Tables\TMaxTrainCurrent.sql" />
+    <Build Include="dbo\Tables\TMaxTrainCurrentType.sql" />
+    <Build Include="dbo\Tables\TMaxTrainCurrentValidFor.sql" />
+    <Build Include="dbo\Tables\TMechanicalWagonCouplerType.sql" />
+    <Build Include="dbo\Tables\TMetadata.sql" />
+    <Build Include="dbo\Tables\TMileageChange.sql" />
+    <Build Include="dbo\Tables\TMileageChangeDescr.sql" />
+    <Build Include="dbo\Tables\TMileageDirection.sql" />
+    <Build Include="dbo\Tables\TMonitoring.sql" />
+    <Build Include="dbo\Tables\TNationalSystem.sql" />
+    <Build Include="dbo\Tables\TOcpAdditionalName.sql" />
+    <Build Include="dbo\Tables\TOcpArea.sql" />
+    <Build Include="dbo\Tables\TOcpCenterSide.sql" />
+    <Build Include="dbo\Tables\TOcpPropEquipmentSummary.sql" />
+    <Build Include="dbo\Tables\TOcpPropOperational.sql" />
+    <Build Include="dbo\Tables\TOcpPropOther.sql" />
+    <Build Include="dbo\Tables\TOcpPropService.sql" />
+    <Build Include="dbo\Tables\TOcpRefInGroup.sql" />
+    <Build Include="dbo\Tables\TOcpTsi.sql" />
+    <Build Include="dbo\Tables\TOcpTT.sql" />
+    <Build Include="dbo\Tables\TOcpTTType.sql" />
+    <Build Include="dbo\Tables\TOcpUptime.sql" />
+    <Build Include="dbo\Tables\TOcpWithIDAndName.sql" />
+    <Build Include="dbo\Tables\TOnOff.sql" />
+    <Build Include="dbo\Tables\TOpenEnd.sql" />
+    <Build Include="dbo\Tables\TOperatingDay.sql" />
+    <Build Include="dbo\Tables\TOperatingDayDeviance.sql" />
+    <Build Include="dbo\Tables\TOperatingPeriod.sql" />
+    <Build Include="dbo\Tables\TOperatingPeriodRef.sql" />
+    <Build Include="dbo\Tables\TOperationalUndertaking.sql" />
+    <Build Include="dbo\Tables\TOperationControlPoint.sql" />
+    <Build Include="dbo\Tables\TOperationMode.sql" />
+    <Build Include="dbo\Tables\TOperationModeChange.sql" />
+    <Build Include="dbo\Tables\TOperator.sql" />
+    <Build Include="dbo\Tables\TOrganizationalUnits.sql" />
+    <Build Include="dbo\Tables\TOrientedElement.sql" />
+    <Build Include="dbo\Tables\TOrientedElementWithLength.sql" />
+    <Build Include="dbo\Tables\TOtherEquipment.sql" />
+    <Build Include="dbo\Tables\TOwner.sql" />
+    <Build Include="dbo\Tables\TOwnerChange.sql" />
+    <Build Include="dbo\Tables\TPantograph.sql" />
+    <Build Include="dbo\Tables\TPassenger.sql" />
+    <Build Include="dbo\Tables\TPassengerFlowSpeed.sql" />
+    <Build Include="dbo\Tables\TPath.sql" />
+    <Build Include="dbo\Tables\TPlacedElement.sql" />
+    <Build Include="dbo\Tables\TPlacedElementWithLength.sql" />
+    <Build Include="dbo\Tables\TPlaces.sql" />
+    <Build Include="dbo\Tables\TPlacesTT.sql" />
+    <Build Include="dbo\Tables\TPlatformEdge.sql" />
+    <Build Include="dbo\Tables\TPlatformEdgeRef.sql" />
+    <Build Include="dbo\Tables\TPneumaticWagonCouplerType.sql" />
+    <Build Include="dbo\Tables\TPoint.sql" />
+    <Build Include="dbo\Tables\TPosInTrack.sql" />
+    <Build Include="dbo\Tables\TPowerTransmission.sql" />
+    <Build Include="dbo\Tables\TPowerTransmissionChange.sql" />
+    <Build Include="dbo\Tables\TPropulsion.sql" />
+    <Build Include="dbo\Tables\TRackTractionType.sql" />
+    <Build Include="dbo\Tables\TRadiusChange.sql" />
+    <Build Include="dbo\Tables\TRailNetwork.sql" />
+    <Build Include="dbo\Tables\TRailwayUndertaking.sql" />
+    <Build Include="dbo\Tables\TRelatedPositionType.sql" />
+    <Build Include="dbo\Tables\TRollingstock.sql" />
+    <Build Include="dbo\Tables\TRostering.sql" />
+    <Build Include="dbo\Tables\TRuleCodeElement.sql" />
+    <Build Include="dbo\Tables\TRunTimes.sql" />
+    <Build Include="dbo\Tables\TSectionTT.sql" />
+    <Build Include="dbo\Tables\TService.sql" />
+    <Build Include="dbo\Tables\TServiceSection.sql" />
+    <Build Include="dbo\Tables\TServiceSectionRef.sql" />
+    <Build Include="dbo\Tables\TSide.sql" />
+    <Build Include="dbo\Tables\TSignal.sql" />
+    <Build Include="dbo\Tables\TSignalBase.sql" />
+    <Build Include="dbo\Tables\TSignalBraking.sql" />
+    <Build Include="dbo\Tables\TSignalCatenary.sql" />
+    <Build Include="dbo\Tables\TSignalEtcs.sql" />
+    <Build Include="dbo\Tables\TSignalGroup.sql" />
+    <Build Include="dbo\Tables\TSignalLevelCrossing.sql" />
+    <Build Include="dbo\Tables\TSignalLine.sql" />
+    <Build Include="dbo\Tables\TSignalMilepost.sql" />
+    <Build Include="dbo\Tables\TSignalRefInGroup.sql" />
+    <Build Include="dbo\Tables\TSignalSpeed.sql" />
+    <Build Include="dbo\Tables\TSignalTrainRadio.sql" />
+    <Build Include="dbo\Tables\TSize.sql" />
+    <Build Include="dbo\Tables\TSpecialService.sql" />
+    <Build Include="dbo\Tables\TSpecialServiceType.sql" />
+    <Build Include="dbo\Tables\TSpecificTransmissionModule.sql" />
+    <Build Include="dbo\Tables\TSpeedChange.sql" />
+    <Build Include="dbo\Tables\TSpeedInfo.sql" />
+    <Build Include="dbo\Tables\TSpeedProfile.sql" />
+    <Build Include="dbo\Tables\TSpeedProfileRef.sql" />
+    <Build Include="dbo\Tables\TSpeedProfileRefRS.sql" />
+    <Build Include="dbo\Tables\TSpeedRangeType.sql" />
+    <Build Include="dbo\Tables\TStandardDeviationTimes.sql" />
+    <Build Include="dbo\Tables\TState.sql" />
+    <Build Include="dbo\Tables\TStates.sql" />
+    <Build Include="dbo\Tables\TStatesWithLength.sql" />
+    <Build Include="dbo\Tables\TStateWithLength.sql" />
+    <Build Include="dbo\Tables\TStationTrackInfo.sql" />
+    <Build Include="dbo\Tables\TStatistic.sql" />
+    <Build Include="dbo\Tables\TStatisticAnalyses.sql" />
+    <Build Include="dbo\Tables\TStatisticTimes.sql" />
+    <Build Include="dbo\Tables\TStopActivity.sql" />
+    <Build Include="dbo\Tables\TStopDescription.sql" />
+    <Build Include="dbo\Tables\TStopPost.sql" />
+    <Build Include="dbo\Tables\TStopTimes.sql" />
+    <Build Include="dbo\Tables\TStorage.sql" />
+    <Build Include="dbo\Tables\TStrictDirection.sql" />
+    <Build Include="dbo\Tables\TStrictOrientedElement.sql" />
+    <Build Include="dbo\Tables\TStrictOrientedElementWithLength.sql" />
+    <Build Include="dbo\Tables\TSwitch.sql" />
+    <Build Include="dbo\Tables\TSwitchConnectionData.sql" />
+    <Build Include="dbo\Tables\TTapTsiCompositIdentifierOperationalType.sql" />
+    <Build Include="dbo\Tables\TTechnicalStopActivity.sql" />
+    <Build Include="dbo\Tables\TTilting.sql" />
+    <Build Include="dbo\Tables\TTiltingActuationType.sql" />
+    <Build Include="dbo\Tables\TTimeSpan.sql" />
+    <Build Include="dbo\Tables\TTimetable.sql" />
+    <Build Include="dbo\Tables\TTimetablePeriod.sql" />
+    <Build Include="dbo\Tables\TTopologyReference.sql" />
+    <Build Include="dbo\Tables\TTrack.sql" />
+    <Build Include="dbo\Tables\TTrackCircuitBorder.sql" />
+    <Build Include="dbo\Tables\TTrackCondition.sql" />
+    <Build Include="dbo\Tables\TTrackNode.sql" />
+    <Build Include="dbo\Tables\TTrackRef.sql" />
+    <Build Include="dbo\Tables\TTrackRefInGroup.sql" />
+    <Build Include="dbo\Tables\TTractionInverter.sql" />
+    <Build Include="dbo\Tables\TTractionMotor.sql" />
+    <Build Include="dbo\Tables\TTrain.sql" />
+    <Build Include="dbo\Tables\TTrainAlignment.sql" />
+    <Build Include="dbo\Tables\TTrainDetector.sql" />
+    <Build Include="dbo\Tables\TTrainEngine.sql" />
+    <Build Include="dbo\Tables\TTrainGroup.sql" />
+    <Build Include="dbo\Tables\TTrainPart.sql" />
+    <Build Include="dbo\Tables\TTrainPartRef.sql" />
+    <Build Include="dbo\Tables\TTrainPartSequence.sql" />
+    <Build Include="dbo\Tables\TTrainProtection.sql" />
+    <Build Include="dbo\Tables\TTrainProtectionChange.sql" />
+    <Build Include="dbo\Tables\TTrainProtectionElement.sql" />
+    <Build Include="dbo\Tables\TTrainProtectionElementGroup.sql" />
+    <Build Include="dbo\Tables\TTrainProtectionMedium.sql" />
+    <Build Include="dbo\Tables\TTrainProtectionMonitoring.sql" />
+    <Build Include="dbo\Tables\TTrainRadio.sql" />
+    <Build Include="dbo\Tables\TTrainRadioAttributes.sql" />
+    <Build Include="dbo\Tables\TTrainRadioChange.sql" />
+    <Build Include="dbo\Tables\TTrainResistance.sql" />
+    <Build Include="dbo\Tables\TTrainScope.sql" />
+    <Build Include="dbo\Tables\TTrainType.sql" />
+    <Build Include="dbo\Tables\TTransformer.sql" />
+    <Build Include="dbo\Tables\TTunnel.sql" />
+    <Build Include="dbo\Tables\TUniqueTrainKey.sql" />
+    <Build Include="dbo\Tables\TUsageType.sql" />
+    <Build Include="dbo\Tables\TValidForMovements.sql" />
+    <Build Include="dbo\Tables\TValueTable.sql" />
+    <Build Include="dbo\Tables\TValueTableColumnHeader.sql" />
+    <Build Include="dbo\Tables\TValueTableValueLine.sql" />
+    <Build Include="dbo\Tables\TValueTableValueLineValues.sql" />
+    <Build Include="dbo\Tables\TVehicle.sql" />
+    <Build Include="dbo\Tables\TVehicleIdentification.sql" />
+    <Build Include="dbo\Tables\TVehicleManufacturer.sql" />
+    <Build Include="dbo\Tables\TVehicleOperator.sql" />
+    <Build Include="dbo\Tables\TVehicleRef.sql" />
+    <Build Include="dbo\Tables\TVerbalCounter.sql" />
+    <Build Include="dbo\Tables\TWagon.sql" />
+    <Build Include="dbo\Tables\TWinding.sql" />
+    <Build Include="dbo\Tables\Type.sql" />
+  </ItemGroup>
+</Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\2.4\\Models\\Models.csproj": {}
+    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\2.4\\Models\\Models.csproj": {
+    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\2.4\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\2.4\\Models\\Models.csproj",
+        "projectPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\TomJames_zyl8law\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\2.4\\Models\\obj\\",
+        "outputPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
