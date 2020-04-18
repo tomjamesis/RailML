@@ -1,0 +1,6 @@
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\bin\Debug\Database.dacpac
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\bin\Debug\Database.dll
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\bin\Debug\Database.pdb
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.dll
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.pdb

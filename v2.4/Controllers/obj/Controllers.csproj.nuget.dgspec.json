@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Controllers\\Controllers.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Controllers\\Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Controllers\\Controllers.csproj",
+        "projectName": "Controllers",
+        "projectPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Controllers\\Controllers.csproj",
+        "packagesPath": "C:\\Users\\TomJames_zyl8law\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TomJames_zyl8law\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/diNxwPn2cKiJgIMTq6MzF1lcupuY6karu2y6YDFwsO7qzSix3O/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
