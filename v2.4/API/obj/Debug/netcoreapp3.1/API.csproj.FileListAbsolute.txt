@@ -123,3 +123,5 @@ C:\GitHub\Repos\LightosLimited\RailML\v2.4\API\obj\Debug\netcoreapp3.1\API.genru
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\API\obj\Debug\netcoreapp3.1\API.csprojAssemblyReference.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\API\bin\Debug\netcoreapp3.1\Models.dll
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\API\bin\Debug\netcoreapp3.1\Models.pdb
