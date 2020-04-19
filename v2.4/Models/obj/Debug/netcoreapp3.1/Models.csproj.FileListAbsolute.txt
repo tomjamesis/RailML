@@ -7,14 +7,14 @@ C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.
 C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.dll
 C:\GitHub\Repos\LightosLimited\RailML\2.4\Models\obj\Debug\netcoreapp3.1\Models.pdb
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.dll
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.pdb
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.dll
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.pdb
-C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
-C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache
-C:\GitHub\Repos\LightosLimited\RailML\v2.4\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
