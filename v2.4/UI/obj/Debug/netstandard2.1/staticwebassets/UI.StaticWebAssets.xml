@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\TomJames_zyl8law\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.0-preview4.20210.8\build\..\staticwebassets\" />
+</StaticWebAssets>

@@ -1,5 +1,9 @@
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\bin\Debug\Database.dacpac
-C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.dll
-C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.pdb
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\bin\Debug\Database.dll
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\bin\Debug\Database.pdb
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Model.xml
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\refactor.xml
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\postdeploy.sql
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\predeploy.sql
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.dll
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Database\obj\Debug\Database.pdb
