@@ -1,0 +1,8 @@
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\bin\Debug\netcoreapp3.1\Helper.deps.json
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\bin\Debug\netcoreapp3.1\Helper.dll
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\bin\Debug\netcoreapp3.1\Helper.pdb
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\obj\Debug\netcoreapp3.1\Helper.csproj.CoreCompileInputs.cache
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\obj\Debug\netcoreapp3.1\Helper.AssemblyInfoInputs.cache
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\obj\Debug\netcoreapp3.1\Helper.AssemblyInfo.cs
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\obj\Debug\netcoreapp3.1\Helper.dll
+C:\GitHub\Repos\LightosLimited\RailML\v2.4\Helper\obj\Debug\netcoreapp3.1\Helper.pdb

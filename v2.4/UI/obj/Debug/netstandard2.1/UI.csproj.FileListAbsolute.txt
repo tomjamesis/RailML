@@ -158,7 +158,6 @@ C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\bin\Debug\netstandard2.1\System.Ru
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\bin\Debug\netstandard2.1\System.Text.Encodings.Web.dll
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\bin\Debug\netstandard2.1\System.Text.Json.dll
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\bin\Debug\netstandard2.1\System.Threading.Tasks.Extensions.dll
-C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\obj\Debug\netstandard2.1\UI.csprojAssemblyReference.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\obj\Debug\netstandard2.1\UI.csproj.CoreCompileInputs.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\obj\Debug\netstandard2.1\UI.RazorComponent.input.cache
 C:\GitHub\Repos\LightosLimited\RailML\v2.4\UI\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
