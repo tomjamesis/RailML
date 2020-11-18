@@ -6,3 +6,4 @@ C:\GitHub\RailML\v3.1\UI\Shared\obj\Debug\netstandard2.1\UI.Shared.AssemblyInfo.
 C:\GitHub\RailML\v3.1\UI\Shared\obj\Debug\netstandard2.1\UI.Shared.csproj.CoreCompileInputs.cache
 C:\GitHub\RailML\v3.1\UI\Shared\obj\Debug\netstandard2.1\UI.Shared.dll
 C:\GitHub\RailML\v3.1\UI\Shared\obj\Debug\netstandard2.1\UI.Shared.pdb
+C:\GitHub\RailML\v3.1\UI\Shared\obj\Debug\netstandard2.1\UI.Shared.csprojAssemblyReference.cache

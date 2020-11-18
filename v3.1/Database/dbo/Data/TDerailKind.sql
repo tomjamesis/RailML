@@ -1,4 +1,4 @@
-USE [XSDtoSQL]
+USE [RailML_3_1]
 GO
 
 INSERT [dbo].[TDerailKind] ([TDerailKindId], [Value]) VALUES (1, N'BlockDerail')

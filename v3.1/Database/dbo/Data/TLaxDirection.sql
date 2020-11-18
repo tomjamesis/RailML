@@ -1,4 +1,4 @@
-USE [XSDtoSQL]
+USE [RailML_3_1]
 GO
 
 INSERT [dbo].[TLaxDirection] ([TLaxDirectionId], [Value]) VALUES (1, N'Up')

@@ -1,4 +1,4 @@
-USE [XSDtoSQL]
+USE [RailML_3_1]
 GO
 
 INSERT [dbo].[TInsulatedRailSide] ([TInsulatedRailSideId], [Value]) VALUES (1, N'None')
