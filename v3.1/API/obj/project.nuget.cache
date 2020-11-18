@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9JldoGYGrrpgFKDerbkYsRFkiRhGWSH/6PmlGcqUa9EP76s4Q2IDwAjAVAIQ2Xj+xymUAdpzCQ1NDpfKWcJO2w==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\RailML\\v3.1\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TomJames\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

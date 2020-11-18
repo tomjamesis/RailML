@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\GitHub\RailML\v3.1\UI\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\GitHub\RailML\v3.1\UI\Client\bin\Debug\netstandard2.1\wwwroot\" />
+</StaticWebAssets>
