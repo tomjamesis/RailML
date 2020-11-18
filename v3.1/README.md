@@ -17,6 +17,7 @@ Product missing (as of April 2020):
 - Sample data
 - CI or CD pipeline
 
+### RailML version 3.1 conversion of XSD schema fails as the 'namespace' aspect does not exist. This is a primary and mandatory aspect of a XSD schema. Therefore the equivalent code version of 2.4 is not available.
 
 The officially released railML® 3.1 scheme version is available [here](https://www.railml.org/en/download/schemes.html?file=files/download/schemas/versions/railML-3.1.zip) for free download.
 
