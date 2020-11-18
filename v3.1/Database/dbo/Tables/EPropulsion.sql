@@ -1,0 +1,38 @@
+CREATE TABLE [dbo].[EPropulsion]
+(
+	--From MergedXSDs XSD
+	--From 'genericRailML' Namespace
+	[EPropulsionId]			SMALLINT		NOT NULL,
+	[Transformer]				SMALLINT		NOT NULL,
+	[FourQuadrantChopper]		SMALLINT		NOT NULL,
+	[Link]						BIGINT		NOT NULL,
+	[TractionInverter]			SMALLINT		NOT NULL,
+	[TractionMotor]			SMALLINT		NOT NULL,
+	[Diesel]					BIGINT		NOT NULL,
+	[Gear]						SMALLINT		NOT NULL,
+	[AuxiliarySupply]			SMALLINT		NOT NULL,
+	[TractiveEffort]			SMALLINT		NOT NULL,
+	[BrakeEffort]				SMALLINT		NOT NULL,
+	[TractiveCurrent]			SMALLINT		NOT NULL,
+	[BrakeCurrent]				SMALLINT		NOT NULL,
+	[TractiveCurrentLimitation]	SMALLINT		NOT NULL,
+	[BrakeCurrentLimitation]	SMALLINT		NOT NULL,
+	[TractiveVehicleEfficiency]	SMALLINT		NOT NULL,
+	[BrakeVehicleEfficiency]	SMALLINT		NOT NULL,
+	[RackTraction]				BIGINT		NOT NULL,
+
+	CONSTRAINT [PK_EPropulsionId] PRIMARY KEY CLUSTERED ([EPropulsionId] ASC),
+	CONSTRAINT [FK_EPropulsion_EAuxiliarySupply] FOREIGN KEY ([AuxiliarySupply]) REFERENCES [dbo].[EAuxiliarySupply] ([EAuxiliarySupplyId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_ETransformer] FOREIGN KEY ([Transformer]) REFERENCES [dbo].[ETransformer] ([ETransformerId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_EFourQuadrantChopper] FOREIGN KEY ([FourQuadrantChopper]) REFERENCES [dbo].[EFourQuadrantChopper] ([EFourQuadrantChopperId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TLink] FOREIGN KEY ([Link]) REFERENCES [dbo].[TLink] ([TLinkId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_ETractionInverter] FOREIGN KEY ([TractionInverter]) REFERENCES [dbo].[ETractionInverter] ([ETractionInverterId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_ETractionMotor] FOREIGN KEY ([TractionMotor]) REFERENCES [dbo].[ETractionMotor] ([ETractionMotorId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TDieselEngine] FOREIGN KEY ([Diesel]) REFERENCES [dbo].[TDieselEngine] ([TDieselEngineId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_EGear] FOREIGN KEY ([Gear]) REFERENCES [dbo].[EGear] ([EGearId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TEffortCurve] FOREIGN KEY ([TractiveEffort]) REFERENCES [dbo].[TEffortCurve] ([TEffortCurveId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TCurrentCurve] FOREIGN KEY ([TractiveCurrent]) REFERENCES [dbo].[TCurrentCurve] ([TCurrentCurveId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TCurrentLimitation] FOREIGN KEY ([TractiveCurrentLimitation]) REFERENCES [dbo].[TCurrentLimitation] ([TCurrentLimitationId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TEfficiencyCurve] FOREIGN KEY ([TractiveVehicleEfficiency]) REFERENCES [dbo].[TEfficiencyCurve] ([TEfficiencyCurveId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EPropulsion_TRackTractionType] FOREIGN KEY ([RackTraction]) REFERENCES [dbo].[TRackTractionType] ([TRackTractionTypeId]) --ON UPDATE CASCADE, ON DELETE CASCADE,
+);

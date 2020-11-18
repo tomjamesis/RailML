@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[EOcpVis]
+(
+	--From MergedXSDs XSD
+	--From 'genericRailML' Namespace
+	[EOcpVisId]	SMALLINT		NOT NULL,
+	[Position]	BIGINT		NOT NULL,
+	[Size]		BIGINT		NOT NULL,
+
+	CONSTRAINT [PK_EOcpVisId] PRIMARY KEY CLUSTERED ([EOcpVisId] ASC),
+	CONSTRAINT [FK_EOcpVis_TPoint] FOREIGN KEY ([Position]) REFERENCES [dbo].[TPoint] ([TPointId]), --ON UPDATE CASCADE, ON DELETE CASCADE,
+	CONSTRAINT [FK_EOcpVis_TSize] FOREIGN KEY ([Size]) REFERENCES [dbo].[TSize] ([TSizeId]) --ON UPDATE CASCADE, ON DELETE CASCADE,
+);

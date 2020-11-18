@@ -21,7 +21,7 @@ namespace Models.XsdConvert.genericRailML
     [System.Xml.Serialization.XmlTypeAttribute("tMetadata", Namespace="https://www.railml.org/schemas/2018")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    internal partial class TMetadata : Dc.Elements.ElementContainer
+    internal partial class TMetadata : Dc_Elements.ElementContainer
     {
         
         /// <summary>

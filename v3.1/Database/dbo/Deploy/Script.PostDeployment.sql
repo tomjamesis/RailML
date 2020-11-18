@@ -1,0 +1,36 @@
+--Auto generated code from XmlSchemaSQLClassGenerator on 12:34 18-Nov-2020
+
+:r ..\Data\TVerbalCounter.sql
+:r ..\Data\TLaxDirection.sql
+:r ..\Data\TExtendedDirection.sql
+:r ..\Data\TDelimitedDirection.sql
+:r ..\Data\TStrictDirection.sql
+:r ..\Data\TMileageDirection.sql
+:r ..\Data\TTrainAlignment.sql
+:r ..\Data\TBrakeUse.sql
+:r ..\Data\TAirBrakeApplicationPosition.sql
+:r ..\Data\TTrainProtectionMedium.sql
+:r ..\Data\TTrainProtectionMonitoring.sql
+:r ..\Data\TInterlockingTypes.sql
+:r ..\Data\TTiltingActuationType.sql
+:r ..\Data\TUsageType.sql
+:r ..\Data\TControllerTechnologyType.sql
+:r ..\Data\TMaxTrainCurrentType.sql
+:r ..\Data\TMaxTrainCurrentValidFor.sql
+:r ..\Data\TMileageChangeDescr.sql
+:r ..\Data\TOcpCenterSide.sql
+:r ..\Data\TSide.sql
+:r ..\Data\TBaliseLinkReaction.sql
+:r ..\Data\TPosInTrack.sql
+:r ..\Data\TInsulatedRailSide.sql
+:r ..\Data\TDerailKind.sql
+:r ..\Data\TSpeedRangeType.sql
+:r ..\Data\TLoadSwitch.sql
+:r ..\Data\TCabPositionType.sql
+:r ..\Data\TEndPositionType.sql
+:r ..\Data\TRelatedPositionType.sql
+:r ..\Data\TSpecialServiceType.sql
+:r ..\Data\TTrainType.sql
+:r ..\Data\TTrainScope.sql
+:r ..\Data\TOcpTTType.sql
+:r ..\Data\TOnOff.sql
