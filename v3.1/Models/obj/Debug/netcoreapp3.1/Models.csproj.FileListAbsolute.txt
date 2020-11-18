@@ -8,5 +8,5 @@ C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.pdb
 C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
 C:\GitHub\RailML\v3.1\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
 C:\GitHub\RailML\v3.1\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
-C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
 C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache
+C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache

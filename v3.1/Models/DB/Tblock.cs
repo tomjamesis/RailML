@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Models.DB
+{
+    public partial class Tblock
+    {
+        public short TblockId { get; set; }
+        public string BlockGroupNumber { get; set; }
+        public bool FixedValue { get; set; }
+        public bool FixedValueSpecified { get; set; }
+    }
+}
