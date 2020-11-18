@@ -7,3 +7,11 @@ C:\GitHub\Repos\LightosLimited\RailML\v3.1\v3.1\Database\obj\Debug\postdeploy.sq
 C:\GitHub\Repos\LightosLimited\RailML\v3.1\v3.1\Database\obj\Debug\predeploy.sql
 C:\GitHub\Repos\LightosLimited\RailML\v3.1\v3.1\Database\obj\Debug\Database.dll
 C:\GitHub\Repos\LightosLimited\RailML\v3.1\v3.1\Database\obj\Debug\Database.pdb
+C:\GitHub\RailML\v3.1\v3.1\Database\bin\Debug\Database.dacpac
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\Model.xml
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\refactor.xml
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\postdeploy.sql
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\predeploy.sql
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\Database.dll
+C:\GitHub\RailML\v3.1\v3.1\Database\obj\Debug\Database.pdb

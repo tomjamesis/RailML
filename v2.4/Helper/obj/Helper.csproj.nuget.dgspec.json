@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Helper\\Helper.csproj": {}
+    "C:\\GitHub\\RailML\\v2.4\\Helper\\Helper.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Helper\\Helper.csproj": {
+    "C:\\GitHub\\RailML\\v2.4\\Helper\\Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Helper\\Helper.csproj",
+        "projectUniqueName": "C:\\GitHub\\RailML\\v2.4\\Helper\\Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Helper\\Helper.csproj",
-        "packagesPath": "C:\\Users\\TomJames_zyl8law\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Repos\\LightosLimited\\RailML\\v2.4\\Helper\\obj\\",
+        "projectPath": "C:\\GitHub\\RailML\\v2.4\\Helper\\Helper.csproj",
+        "packagesPath": "C:\\Users\\TomJames\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\RailML\\v2.4\\Helper\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TomJames_zyl8law\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TomJames\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/diNxwPn2cKiJgIMTq6MzF1lcupuY6karu2y6YDFwsO7qzSix3O/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -56,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

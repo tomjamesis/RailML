@@ -1,0 +1,3 @@
+C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+C:\GitHub\RailML\v3.1\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
