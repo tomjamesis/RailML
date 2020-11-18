@@ -24,18 +24,18 @@ namespace Models.XsdConvert.genericRailML
     internal partial class TTrainProtectionElement : TOrientedElement
     {
         
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        //[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)] // Error CS0120  An object reference is required for the non-static field, method, or property
         [System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute()]
         [System.Xml.Serialization.XmlAttributeAttribute("medium")]
         public genericRailML.TTrainProtectionMedium MediumValue { get; set; }
-        
+
         /// <summary>
         /// <para xml:lang="de">Ruft einen Wert ab, der angibt, ob die Medium-Eigenschaft spezifiziert ist, oder legt diesen fest.</para>
         /// <para xml:lang="en">Gets or sets a value indicating whether the Medium property is specified.</para>
         /// </summary>
+        //[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)] // Error CS0120  An object reference is required for the non-static field, method, or property
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         [System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute()]
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         public bool MediumValueSpecified { get; set; }
         
         [System.Xml.Serialization.XmlIgnoreAttribute()]
