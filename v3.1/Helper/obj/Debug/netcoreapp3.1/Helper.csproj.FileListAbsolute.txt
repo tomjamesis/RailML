@@ -1,0 +1,9 @@
+C:\GitHub\RailML\v3.1\Helper\bin\Debug\netcoreapp3.1\Helper.deps.json
+C:\GitHub\RailML\v3.1\Helper\bin\Debug\netcoreapp3.1\Helper.dll
+C:\GitHub\RailML\v3.1\Helper\bin\Debug\netcoreapp3.1\Helper.pdb
+C:\GitHub\RailML\v3.1\Helper\obj\Debug\netcoreapp3.1\Helper.csprojAssemblyReference.cache
+C:\GitHub\RailML\v3.1\Helper\obj\Debug\netcoreapp3.1\Helper.AssemblyInfoInputs.cache
+C:\GitHub\RailML\v3.1\Helper\obj\Debug\netcoreapp3.1\Helper.AssemblyInfo.cs
+C:\GitHub\RailML\v3.1\Helper\obj\Debug\netcoreapp3.1\Helper.csproj.CoreCompileInputs.cache
+C:\GitHub\RailML\v3.1\Helper\obj\Debug\netcoreapp3.1\Helper.dll
+C:\GitHub\RailML\v3.1\Helper\obj\Debug\netcoreapp3.1\Helper.pdb
