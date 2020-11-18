@@ -1,0 +1,53 @@
+using Models.DB;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace API.Controllers
+{
+	[Route("api/[controller]")]
+	//[Authorize]
+	[ApiController]
+	public class TlocallyControlledAreasController : Controller
+	{
+			private RailML_3_1Context db = new RailML_3_1Context();
+			// GET api/values/5
+			[HttpGet("{id}")]
+			public async Task<string> Get(int id)
+			{
+				 //IList<TlocallyControlledArea> lTlocallyControlledAreas = await db.TlocallyControlledArea.GetAllCompanyTlocallyControlledAreas(id);
+				 //return JsonConvert.SerializeObject(lTlocallyControlledAreas.ToArray());
+				 return "";
+			}
+
+			// POST api/values
+			[HttpPost]
+			public async Task<string> Post([FromBody]TlocallyControlledArea tlocallycontrolledarea)
+			{
+				 //Create
+				 db.TlocallyControlledArea.Add(tlocallycontrolledarea);
+				 await db.SaveChangesAsync();
+				 return JsonConvert.SerializeObject(tlocallycontrolledarea);
+			}
+
+			// PUT api/values/5
+			[HttpPut("{id}")]
+			public async Task Put(int id, [FromBody]TlocallyControlledArea tlocallycontrolledarea)
+			{
+				 //Update
+				 db.TlocallyControlledArea.Update(tlocallycontrolledarea);
+				 await db.SaveChangesAsync();
+			}
+
+			// DELETE api/values/5
+			[HttpDelete("{id}")]
+			public async Task<string> DeleteAsync([FromBody]TlocallyControlledArea tlocallycontrolledarea)
+			{
+				 db.TlocallyControlledArea.Remove(tlocallycontrolledarea);
+				 await db.SaveChangesAsync();
+				 return JsonConvert.SerializeObject("Ok");
+			}
+	}
+}
